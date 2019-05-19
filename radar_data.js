@@ -15,7 +15,7 @@ const radar_data = {
     { name: "Platforms & Providers" },
   ],
   rings: [
-    { name: "ADOPT",  color: "#93c47d" },
+    { name: "USE",  color: "#93c47d" },
     { name: "TRIAL", color: "#b7e1cd" },
     { name: "ASSESS",  color: "#fce8b2" },
     { name: "HOLD",  color: "#f4c7c3" }
@@ -80,9 +80,21 @@ const radar_data = {
     },
     {
       label: "Kubernetes / GKE",
-      quadrant: 1,
+      quadrant: 3,
       ring: 0,
       moved: 1
+    },
+    {
+      label: "Android",
+      quadrant: 3,
+      ring: 0,
+      moved: 0
+    },
+    {
+      label: "iOS",
+      quadrant: 3,
+      ring: 0,
+      moved: 0
     },
     {
       label: "google cloud",
