@@ -15,7 +15,7 @@ const radar_data = {
     { name: "Platforms & Providers" },
   ],
   rings: [
-    { name: "USE",  color: "#93c47d" },
+    { name: "ADAPT",  color: "#93c47d" },
     { name: "TRIAL", color: "#b7e1cd" },
     { name: "ASSESS",  color: "#fce8b2" },
     { name: "HOLD",  color: "#f4c7c3" }
@@ -39,6 +39,30 @@ const radar_data = {
     {
       label: "Code reviews / PRs",
       quadrant: 0,
+      ring: 0,
+      moved: 0
+    },
+    {
+      label: "elixir",
+      quadrant: 2,
+      ring: 2,
+      moved: 1
+    },
+    {
+      label: "node.js",
+      quadrant: 2,
+      ring: 1,
+      moved: 0
+    },
+    {
+      label: "redux",
+      quadrant: 2,
+      ring: 0,
+      moved: 0
+    },
+    {
+      label: "styled components",
+      quadrant: 2,
       ring: 0,
       moved: 0
     },
@@ -76,7 +100,7 @@ const radar_data = {
       label: "TDD / BDD",
       quadrant: 0,
       ring: 0,
-      moved: 1
+      moved: 0
     },
     {
       label: "Kubernetes / GKE",
@@ -118,7 +142,7 @@ const radar_data = {
       label: "new relic",
       quadrant: 1,
       ring: 0,
-      moved: 1
+      moved: 0
     },
     {
       label: "stackdriver",
@@ -147,7 +171,7 @@ const radar_data = {
     {
       label: "memcached (sidecar)",
       quadrant: 1,
-      ring: 2,
+      ring: 1,
       moved: 1
     },
     {
@@ -171,7 +195,7 @@ const radar_data = {
     {
       label: "Firestore",
       quadrant: 1,
-      ring: 2,
+      ring: 1,
       moved: 1
     },
     {
@@ -190,7 +214,7 @@ const radar_data = {
       label: "docker",
       quadrant: 1,
       ring: 0,
-      moved: 1
+      moved: 0
     },
     {
       label: "sinatra",
@@ -298,13 +322,13 @@ const radar_data = {
       label: "Google Analytics",
       quadrant: 1,
       ring: 0,
-      moved: 1
+      moved: 0
     },
     {
       label: "Segment",
       quadrant: 1,
       ring: 0,
-      moved: 1
+      moved: 0
     },
     {
       label: "gloo",
@@ -315,7 +339,7 @@ const radar_data = {
     {
       label: "kafka",
       quadrant: 1,
-      ring: 2,
+      ring: 1,
       moved: 1
     },
     {
@@ -346,7 +370,7 @@ const radar_data = {
       label: "Gatsby",
       quadrant: 2,
       ring: 0,
-      moved: 1
+      moved: 0
     },
     {
       label: "ansible",
@@ -370,7 +394,7 @@ const radar_data = {
       label: "Progressive Web Apps",
       quadrant: 0,
       ring: 1,
-      moved: 0
+      moved: 1
     },
 
 
