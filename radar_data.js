@@ -49,12 +49,6 @@ const radar_data = {
       moved: 1
     },
     {
-      label: "node.js",
-      quadrant: 2,
-      ring: 1,
-      moved: 0
-    },
-    {
       label: "redux",
       quadrant: 2,
       ring: 0,
@@ -283,7 +277,7 @@ const radar_data = {
       moved: -1
     },
     {
-      label: "graphql",
+      label: "graphql (node.js)",
       quadrant: 2,
       ring: 1,
       moved: 1
