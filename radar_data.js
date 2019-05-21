@@ -62,7 +62,7 @@ const radar_data = {
     },
     {
       label: "styled components",
-      quadrant: 2,
+      quadrant: 0,
       ring: 0,
       moved: 0
     },
