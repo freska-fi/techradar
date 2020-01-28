@@ -15,7 +15,7 @@ const radar_data = {
     { name: "Platforms & Providers" },
   ],
   rings: [
-    { name: "ADAPT",  color: "#93c47d" },
+    { name: "ADOPT",  color: "#93c47d" },
     { name: "TRIAL", color: "#b7e1cd" },
     { name: "ASSESS",  color: "#fce8b2" },
     { name: "HOLD",  color: "#f4c7c3" }
