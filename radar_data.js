@@ -237,7 +237,7 @@ const radar_data = {
     {
       label: "flutter",
       quadrant: 2,
-      ring: 1,
+      ring: 0,
       moved: 1
     },
     {
