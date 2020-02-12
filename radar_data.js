@@ -165,8 +165,8 @@ const radar_data = {
     {
       label: "memcached (sidecar)",
       quadrant: 1,
-      ring: 1,
-      moved: 1
+      ring: 3,
+      moved: -1
     },
     {
       label: "redis",
@@ -333,7 +333,7 @@ const radar_data = {
     {
       label: "kafka",
       quadrant: 1,
-      ring: 1,
+      ring: 0,
       moved: 1
     },
     {
